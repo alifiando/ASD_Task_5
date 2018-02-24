@@ -1,10 +1,8 @@
 #ifndef LIST_H_INCLUDED
 #define LIST_H_INCLUDED
-
 #include <string>
 #include <windows.h>
 #include <iostream>
-
 #define first(L) L.first
 #define last(L) L.last
 #define next(P) P->next
@@ -13,7 +11,8 @@
 
 using namespace std;
 
-struct music {
+struct music
+{
     int ID;
     string name;
     string location;
@@ -27,17 +26,17 @@ typedef struct elmlist *address;
 * IMPLEMENT CIRCULAR DOUBLE LINKED LIST
 */
 
-struct elmlist {
-    //------------- your code here -----------
-
-
-    //----------------------------------------
+struct elmlist
+{
+    infotype info;
+    address next;
+    address prev;
 };
 
-struct List {
-    //------------- your code here -----------
-
-    //----------------------------------------
+struct List
+{
+    address first;
+    address last;
 };
 
 void createList(List &);
