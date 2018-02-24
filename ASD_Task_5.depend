@@ -24,8 +24,6 @@
 	"player.h"
 	<ctime>
 
-1519486286 source:c:\users\user\documents\github\asd_task_5\list.cpp
-	<string>
-	<windows.h>
-	<iostream>
+1519486528 source:c:\users\user\documents\github\asd_task_5\list.cpp
+	"list.h"
 
